@@ -5,16 +5,16 @@ function calculator(num, num2) {
 
 calculator(15, 16);
 
-function multiplyByFive (num, num2) {
-    let answer = num * num2;
+function multiplyByFive (num) {
+    let answer = num * 5;
     console.log(answer);
 }
 
-multiplyByFive(31, 5)
+multiplyByFive(30)
 
-function calculateMinutes (num, num2) {
-    let answer = num / num2;
+function calculateMinutes (num) {
+    let answer = num / 60;
     console.log(answer);
 }
 
-calculateMinutes(540, 60)
+calculateMinutes(3600)
